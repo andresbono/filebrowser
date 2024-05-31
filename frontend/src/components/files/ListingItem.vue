@@ -282,12 +282,10 @@ const open = (event: Event | KeyboardEvent) => {
 };
 
 const getExtension = (fileName: string): string => {
-  const lastDotIndex = fileName.lastIndexOf('.');
+  const lastDotIndex = fileName.lastIndexOf(".");
   if (lastDotIndex === -1) {
     return fileName;
   }
-  return fileName.substring(lastDotIndex );
+  return fileName.substring(lastDotIndex);
 };
-
-
 </script>
